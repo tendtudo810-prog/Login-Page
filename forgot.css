@@ -1,76 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
 * {
-     font-family: "Roboto", sans-serif;
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     text-decoration: none;
-     list-style: none;    
+     font-family: 'Poppins', sans-serif;
 }
 
-body {
-     background: #f2f2f2;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
-}
-
-.container {
-     background: #fff;
-     padding: 30px;
-     border-radius: 5px;
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.card {
      width: 400px;
-}
-
-h2 {
-     text-align: center;
-     margin-bottom: 20px;
-}
-
-.input-group {
+     height: 500px;
+     background: #fff;
+     border-radius: 10px;
+     box-shadow: 0 5px 10px rgba(0,0,0,0.15);
      display: flex;
+     flex-direction: column;
      align-items: center;
-     margin-bottom: 15px;
-     border: 1px solid #ccc;
-     border-radius: 5px;
-     padding: 10px;
-}
-
-.input-group i {
-     margin-right: 10px;
-     color: #888;
-}
-
-.input-group input {
-     border: none;
-     outline: none;
-     width: 100%;
-     font-size: 16px;
-}
-
-.forgot-link {
-     text-align: right;
-     margin-bottom: 20px;
-}
-
-.forgot-link a {
-     color: #007BFF;
-     font-size: 14px;
-}
-
-.btn {
-     width: 100%;
-     padding: 10px;
-     background: #007BFF;
-     color: #fff;
-     border: none;
-     border-radius: 5px;
-     font-size: 16px;
-     cursor: pointer;
-}
-
-.btn:hover {
-     background: #0056b3;
+     justify-content: center;
+     max-width: 600px;
+     margin: 250px auto;
 }

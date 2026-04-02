@@ -1,31 +1,30 @@
 @import "tailwindcss";
 
 * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: #f9f9f9;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    height: 900px;
+  background-color: #f2f2f2;
 }
 
-.container {
-     background-color: #fff;
-     margin: auto;
-     display: flex;
-     flex-direction: column;
-     height: 90vh;
-     box-shadow: 90px 90px 100px rgba(0, 0, 0.2, 0.2);
-     border-radius: 10px;
-     height: 600px;
-     width: 600px;
-     max-height: 900px auto;
-
+#container {
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-shadow: 90px 90px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 40%;
+  height: 600px;
+  margin-top: 70px;
 }
 
+.img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
